@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="20sp"
+              tools:context=".shale_shaker">
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/rad1"/>
+        <RadioButton android:id="@+id/radio2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/rad2"
+                     />
+        <RadioButton android:id="@+id/radio3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/rad3"
+        />
+    </RadioGroup>
+
+    <EditText
+            android:id="@+id/lots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lots"
+            android:inputType="numberDecimal">
+
+    </EditText>
+    <EditText
+            android:id="@+id/rpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/RPM"
+            android:inputType="numberDecimal">
+
+    </EditText>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/G_factor">
+
+    </TextView>
+    <TextView
+            android:id="@+id/gfors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/G_factor">
+    </TextView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rost">
+
+    </TextView>
+    <TextView
+            android:id="@+id/rost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rost">
+    </TextView>
+
+    <Button
+            android:id="@+id/btne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn">
+
+    </Button>
+
+</LinearLayout>

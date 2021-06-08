@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="var1">variable number1</string>
+    <string name="var2">variable number2</string>
+    <string name="var3">variable number3</string>
+    <string name="shel_shaker">shale shaker</string>
+    <string name="desander">desander</string>
+    <string name="mudcleaner">mudcleaner</string>
+    <string name="G_factor">G factor = </string>
+    <string name="lots">length of the stroke</string>
+    <string name="RPM">revolotion per minute</string>
+    <string name="rost">rate of solids trasport = </string>
+    <string name="rad1">m </string>
+    <string name="rad2">inch</string>
+    <string name="rad3">ft</string>
+    <string name="btn">=</string>
+
+</resources>

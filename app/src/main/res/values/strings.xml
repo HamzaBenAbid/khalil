@@ -6,13 +6,23 @@
     <string name="shel_shaker">shale shaker</string>
     <string name="desander">desander</string>
     <string name="mudcleaner">mudcleaner</string>
-    <string name="G_factor">G factor = </string>
+    <string name="G_factor">G factor =</string>
     <string name="lots">length of the stroke</string>
     <string name="RPM">revolotion per minute</string>
-    <string name="rost">rate of solids trasport = </string>
-    <string name="rad1">m </string>
+    <string name="rost">rate of solids trasport =</string>
+    <string name="rad1">m</string>
     <string name="rad2">inch</string>
     <string name="rad3">ft</string>
+    <string name="Frictional">Frictional pressure loss</string>
+    <string name="Sengualar">Sengualar pressure loss</string>
+    <string name="pump">pump capacity</string>
+    <string name="piped">pipe diamter 1</string>
+    <string name="piped2">pipe diamter 2</string>
+    <string name="pipel1">pipe length 1</string>
+    <string name="pipel2">pipe length 2</string>
+    <string name="density">density</string>
+    <string name="dynamique"> dynamique viscosity</string>
+
     <string name="btn">=</string>
 
 </resources>

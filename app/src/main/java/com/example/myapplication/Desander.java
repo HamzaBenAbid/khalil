@@ -14,13 +14,6 @@ public class Desander extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desander);
 
-        frictional=findViewById(R.id.Frictional);
-        frictional.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent desi = new Intent(Desander.this, Frictional.class);
-                startActivity(desi);
-            }
-        });
+
     }
 }

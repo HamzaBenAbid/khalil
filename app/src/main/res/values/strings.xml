@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Drilling inat</string>
     <string name="var1">variable number1</string>
     <string name="var2">variable number2</string>
     <string name="var3">variable number3</string>
@@ -22,7 +22,17 @@
     <string name="pipel2">pipe length 2</string>
     <string name="density">density</string>
     <string name="dynamique"> dynamique viscosity</string>
-
     <string name="btn">=</string>
+    <string name="Motorwillnotstart">Motor will not start/run</string>
+    <string name="Motoroverheating">Motor overheating</string>
+    <string name="Noisyoperation">Noisy operation</string>
+    <string name="Cuttingsmovingerraticallyonshakerscreen">Cuttings moving erratically on shaker screen </string>
+    <string name="Mudoverflowingshaleshakerscreen"> Mud overflowing shale shaker screen</string>
+    <string name="Oversizedcuttingsreturnedtoactivesystem"> Oversized cuttings returned to active system</string>
+    <string name="Nodrillingfluidflowingtoshaleshaker">No drilling fluid flowing to shale shaker</string>
+    <string name="ShakerScreenfailure">Shaker Screen failure</string>
+
+
+
 
 </resources>

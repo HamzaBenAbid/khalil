@@ -21,11 +21,6 @@
             android:layout_height="wrap_content"
             android:text="@string/desander">
     </com.google.android.material.button.MaterialButton>
-    <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mudcleaner">
-    </com.google.android.material.button.MaterialButton>
+
 
 </LinearLayout>

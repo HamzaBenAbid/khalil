@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         shell = findViewById(R.id.btn1);
         des = findViewById(R.id.btn2);
-        mud = findViewById(R.id.btn3);
+
         shell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,13 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(desi);
             }
         });
-        mud.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mudi = new Intent(MainActivity.this, Mudclarner.class);
-                startActivity(mudi);
-            }
-        });
+
 
 
     }

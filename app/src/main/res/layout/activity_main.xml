@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:layout_margin="20sp"
+        android:background="@color/teal_200"
         tools:context=".MainActivity">
 
     <com.google.android.material.button.MaterialButton

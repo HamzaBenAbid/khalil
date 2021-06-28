@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Motor_will_not_start">
+        </activity>
         <activity android:name=".Desander">
         </activity>
         <activity android:name=".shale_shaker">

@@ -4,7 +4,7 @@
     <string name="var2">variable number2</string>
     <string name="var3">variable number3</string>
     <string name="shel_shaker">shale shaker</string>
-    <string name="desander">desander</string>
+    <string name="desander">problems and solutions</string>
     <string name="mudcleaner">mudcleaner</string>
     <string name="G_factor">G factor =</string>
     <string name="lots">length of the stroke</string>
@@ -21,17 +21,21 @@
     <string name="pipel1">pipe length 1</string>
     <string name="pipel2">pipe length 2</string>
     <string name="density">density</string>
-    <string name="dynamique"> dynamique viscosity</string>
+    <string name="dynamique">dynamique viscosity</string>
     <string name="btn">=</string>
     <string name="Motorwillnotstart">Motor will not start/run</string>
     <string name="Motoroverheating">Motor overheating</string>
     <string name="Noisyoperation">Noisy operation</string>
-    <string name="Cuttingsmovingerraticallyonshakerscreen">Cuttings moving erratically on shaker screen </string>
-    <string name="Mudoverflowingshaleshakerscreen"> Mud overflowing shale shaker screen</string>
-    <string name="Oversizedcuttingsreturnedtoactivesystem"> Oversized cuttings returned to active system</string>
+    <string name="Cuttingsmovingerraticallyonshakerscreen">Cuttings moving erratically on shaker screen</string>
+    <string name="Mudoverflowingshaleshakerscreen">Mud overflowing shale shaker screen</string>
+    <string name="Oversizedcuttingsreturnedtoactivesystem">Oversized cuttings returned to active system</string>
     <string name="Nodrillingfluidflowingtoshaleshaker">No drilling fluid flowing to shale shaker</string>
     <string name="ShakerScreenfailure">Shaker Screen failure</string>
-
+    <string name="ShakerProblem">Shaker Problem:</string>
+    <string name="Itemstocheck">Items to check:</string>
+    <string name="Solution">Solution:</string>
+    <string name="Powersupplyincompatible"> Power supply incompatible</string>
+    <string name="Checkpowerandwiremotors">Check power and wire motors</string>
 
 
 

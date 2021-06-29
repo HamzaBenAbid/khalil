@@ -2,15 +2,24 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/yallow"
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".Motor_will_not_start" android:orientation="vertical">
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                 android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:stretchColumns="1">
-        <TableRow>
+        tools:context=".Motor_will_not_start">
+
+    <TableLayout
+            android:divider="@color/red"
+            android:showDividers="middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:stretchColumns="1">
+        <TableRow
+                android:divider="@color/red"
+
+                android:showDividers="middle">
             <TextView
                     android:text="@string/Itemstocheck"
                     android:padding="3dip"
@@ -22,15 +31,82 @@
                     android:textStyle="bold"/>
         </TableRow>
 
-        <TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
             <TextView
                     android:text="@string/Powersupplyincompatible"
                     android:padding="3dip"/>
             <TextView
                     android:text="@string/Checkpowerandwiremotors"
-                    android:gravity="right"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Power supply disconnected"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Reconnect power"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Power cable failure"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Replace or repair cable"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Motor damage"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Replace or repair motor"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Overloaded or overheated motor"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Replace overload protection withproper type and rating"
+
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Over-greasing motors"
+                    android:padding="3dip"/>
+            <TextView
+
+                    android:text="Remove drain plug before greasing;motor must be rebuilt ifdamaged"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle"
+        android:visibility="visible">
+            <TextView
+                    android:text="Drive belt too tight"
+                    android:padding="3dip"/>
+            <TextView
+
+                    android:text="Adjust according to manufacturer's
+recommendations"
                     android:padding="3dip"/>
         </TableRow>
     </TableLayout>
+
 
 </LinearLayout>

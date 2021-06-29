@@ -9,6 +9,20 @@
             android:roundIcon="@mipmap/logo_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.MyApplication">
+        <activity android:name=".ShakerScreenfailure">
+        </activity>
+        <activity android:name=".Nodrillingfluidflowingtoshaleshake">
+        </activity>
+        <activity android:name=".Oversizedcuttingseturnedtoactivesystem">
+        </activity>
+        <activity android:name=".Mudoverflowingshaleshakerscreen">
+        </activity>
+        <activity android:name=".Cuttingsmovingerraticallyonshakerscreen">
+        </activity>
+        <activity android:name=".Noisyoperation">
+        </activity>
+        <activity android:name=".Motoroverheating">
+        </activity>
         <activity android:name=".Motor_will_not_start">
         </activity>
         <activity android:name=".Desander">

@@ -2,11 +2,13 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+       android:orientation="vertical"
+        android:gravity="center"
         android:background="@color/yallow"
         android:layout_width="match_parent"
-        android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".Motor_will_not_start">
+        tools:context=".Cuttingsmovingerraticallyonshakerscreen">
+
 
     <TableLayout
             android:divider="@color/red"
@@ -39,82 +41,56 @@
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="@string/Powersupplyincompatible"
+                    android:text="Unit not level"
                     android:padding="3dip"/>
             <TextView
-                    android:text="@string/Checkpowerandwiremotors"
+                    android:text="Adjust installation to level position; check tank for level alignment"
                     android:padding="3dip"/>
         </TableRow>
         <TableRow
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="Power supply disconnected"
+                    android:text="Motor rotational problem"
                     android:padding="3dip"/>
             <TextView
-                    android:text="Reconnect power"
+                    android:text="Check manufacturer's recommendations"
                     android:padding="3dip"/>
         </TableRow>
         <TableRow
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="Power cable failure"
+                    android:text="Shock mount damage"
                     android:padding="3dip"/>
             <TextView
-                    android:text="Replace or repair cable"
+                    android:text="Replace mounts"
                     android:padding="3dip"/>
         </TableRow>
         <TableRow
                 android:divider="@color/red"
                 android:showDividers="middle">
-            <TextView
-                    android:text="Motor damage"
-                    android:padding="3dip"/>
-            <TextView
-                    android:text="Replace or repair motor"
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle">
-            <TextView
-                    android:text="Overloaded or overheated motor"
-                    android:padding="3dip"/>
-            <TextView
-                    android:text="Replace overload protection withproper type and rating"
-
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle">
-            <TextView
-                    android:text="Over-greasing motors"
-                    android:padding="3dip"/>
-            <TextView
-
-                    android:text="Remove drain plug before greasing;motor must be rebuilt ifdamaged"
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle"
-        android:visibility="visible">
             <TextView
                     android:text="Drive belt too tight"
                     android:padding="3dip"/>
             <TextView
-
-                    android:text="Adjust according to manufacturer's
-recommendations"
+                    android:text="Adjust to proper manufacturer's setting"
                     android:padding="3dip"/>
         </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Motor failure"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Replace motor"
+                    android:padding="3dip"/>
+        </TableRow>
+
         <TableRow
                 android:divider="@color/red"
 
                 android:showDividers="none"/>
     </TableLayout>
-
-
 </LinearLayout>

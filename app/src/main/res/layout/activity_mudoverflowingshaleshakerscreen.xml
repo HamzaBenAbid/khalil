@@ -2,12 +2,12 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:background="@color/yallow"
         android:layout_width="match_parent"
         android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/yallow"
         android:layout_height="match_parent"
-        tools:context=".Motor_will_not_start">
-
+        tools:context=".Mudoverflowingshaleshakerscreen">
     <TableLayout
             android:divider="@color/red"
             android:showDividers="middle"
@@ -39,77 +39,43 @@
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="@string/Powersupplyincompatible"
+                    android:text="Screens plugged"
                     android:padding="3dip"/>
             <TextView
-                    android:text="@string/Checkpowerandwiremotors"
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle">
-            <TextView
-                    android:text="Power supply disconnected"
-                    android:padding="3dip"/>
-            <TextView
-                    android:text="Reconnect power"
+                    android:text="Replace or clean screens"
                     android:padding="3dip"/>
         </TableRow>
         <TableRow
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="Power cable failure"
+                    android:text="Wrong screens"
                     android:padding="3dip"/>
             <TextView
-                    android:text="Replace or repair cable"
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle">
-            <TextView
-                    android:text="Motor damage"
-                    android:padding="3dip"/>
-            <TextView
-                    android:text="Replace or repair motor"
+                    android:text="Adjust screen size up or down to determine proper selection"
                     android:padding="3dip"/>
         </TableRow>
         <TableRow
                 android:divider="@color/red"
                 android:showDividers="middle">
             <TextView
-                    android:text="Overloaded or overheated motor"
+                    android:text="Incorrect deck angle"
                     android:padding="3dip"/>
             <TextView
-                    android:text="Replace overload protection withproper type and rating"
+                    android:text="Temporarily adjust screen angle up or down"
+                    android:padding="3dip"/>
+        </TableRow>
+        <TableRow
+                android:divider="@color/red"
+                android:showDividers="middle">
+            <TextView
+                    android:text="Water-wet screens in an oil-based drilling fluid"
+                    android:padding="3dip"/>
+            <TextView
+                    android:text="Change screens; add more oil-wetter to drilling fluid"
+                    android:padding="3dip"/>
+        </TableRow>
 
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle">
-            <TextView
-                    android:text="Over-greasing motors"
-                    android:padding="3dip"/>
-            <TextView
-
-                    android:text="Remove drain plug before greasing;motor must be rebuilt ifdamaged"
-                    android:padding="3dip"/>
-        </TableRow>
-        <TableRow
-                android:divider="@color/red"
-                android:showDividers="middle"
-        android:visibility="visible">
-            <TextView
-                    android:text="Drive belt too tight"
-                    android:padding="3dip"/>
-            <TextView
-
-                    android:text="Adjust according to manufacturer's
-recommendations"
-                    android:padding="3dip"/>
-        </TableRow>
         <TableRow
                 android:divider="@color/red"
 

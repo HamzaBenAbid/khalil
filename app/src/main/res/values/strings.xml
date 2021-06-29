@@ -34,9 +34,8 @@
     <string name="ShakerProblem">Shaker Problem:</string>
     <string name="Itemstocheck">Items to check:</string>
     <string name="Solution">Solution:</string>
-    <string name="Powersupplyincompatible"> Power supply incompatible</string>
+    <string name="Powersupplyincompatible">Power supply incompatible</string>
     <string name="Checkpowerandwiremotors">Check power and wire motors</string>
-
 
 
 </resources>
